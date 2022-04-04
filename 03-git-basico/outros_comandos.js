@@ -6,6 +6,11 @@
     _ remover arquivos com o git:
     ? git rm nome_arquivo
     #rm de remove
+    @ só remove arquivos trackeado com
+        ? git rm nome_arquivo -f 
+        #força remoção
+    @ é feito para remover arquivos que o git está acompanhando
+    @ remove passando o arquivo e caminho do arquivo ex: 03-git-basico/outros_comandos.js
 
     _ verificar diferenças de um arquivo staged com diff
     ? git diff --staged
