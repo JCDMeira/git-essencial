@@ -13,8 +13,8 @@
     _pesquisar commits posteriores a uma data:
     ?git log --after="2022-04-01"
 
-    _pesquisar commits posteriores a uma data:
-    ?git log --after="2022-04-01"
+    _pesquisar commits entre datas:
+    ?git log --before="2022-04-01" --after="2022-06-01" 
 
     _pesquisar commits desde:
     ?git log --since="2 days ago"
